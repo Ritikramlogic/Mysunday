@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+  color: #58575d;
+  font-size: 18px;
+  margin: 0;
+}
+
+div {
+  color: #58575d;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  color: #000;
+}
+
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+
+
+/* CCS For Swiper Slider */
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 24px !important;
+  background-color: #F18522 !important;
+  border-radius: 4px;
+
+}
+
+.swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  color: white;
+  border-radius: 50%;
+  background-color: #F18522;
+
+  right: 120px !important;
+  left: auto !important;
+  top: 90% !important;
+}
+
+.swiper-button-next {
+  width: 50px !important;
+  height: 50px !important;
+  color: white;
+  border-radius: 50%;
+  background-color: #F18522;
+  right: 50px !important;
+  left: auto !important;
+  top: 90% !important;
+
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 20px !important;
+  color: white;
+  font-weight: bold;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  text-align: left;
+  margin-left: 50px;
+  width: auto !important;
+}
